@@ -47,6 +47,17 @@ public class JavaBasic {
         int number2 = scanner.nextInt();
 
         System.out.println(number1 + number2);
+        
+        // product of a and b
+        System.out.println(number1 * number2);
+        
+        // area of circle
+        // area of circle is pi * r* r
+        
+        double radius = 2.0;
+        double area = 3.14 * Math.sqrt(radius);
+        System.out.println("Area of circle = " + area);
+        
         scanner.close();
     }
 }
