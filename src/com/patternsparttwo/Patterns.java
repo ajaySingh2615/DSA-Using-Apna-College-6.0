@@ -7,8 +7,22 @@ public class Patterns {
 //        printInvertedHalfPyramidWithNumber(5);
 //        printFloydTriangle(5);
 //        printZeroOneTriangle(5);
+        // printButterflyPattern(8);
 
-        printButterflyPattern(8);
+        printSolidRhombus(5);
+    }
+
+    public static void printSolidRhombus(int n){
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n-i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= n; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
     }
 
     public static void printButterflyPattern(int n) {
